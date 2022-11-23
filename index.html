@@ -50,9 +50,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favorite Things</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body background="Background.jpg" BODY text="turquoise"> 
+<body BODY text="turquoise"> 
 
     <h1> This is a site of my favorite things!</h1>
     
@@ -73,7 +74,9 @@
     </ul>
     </div>
 
-    <img height="500px" src="wow.png" class="center">
+<img height="500px" src="wow.png" class="center" onMouseOver="document.getElementById('wow').play()">
+
+    <audio id="wow" src="Wow.mp3"></audio>
     <p></p>
 
 </body>
