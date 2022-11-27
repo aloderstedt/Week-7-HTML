@@ -16,7 +16,7 @@ tr:hover {
 }
 
 a:link {
-    color: red;
+    color: crimson;
     font-size: 50;
 }
     
@@ -34,19 +34,50 @@ a::selection {
     color: green;
     font-size: 70;
 }
-
+ 
 body {
- background-image: url(Background.jpg) ;
+ background-image: url(images/Background.jpg) ;
 }
 
 h5 {
     text-align: center;
 }
 
+h4 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-shadow: 15px white;
+    text-align: center;
+}
+
 div {
     text-align: center;
 }
-  
+
+div.container {
+    text-align: center;
+}
+
+ul.myUL {
+    display: inline-block;
+    text-align: left;
+}
+
+form {
+    text-align: center;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .center {
       display: block;
       margin-left: auto;
@@ -54,3 +85,15 @@ div {
       width: 50%;
       height: 50%;
   }
+
+.right {
+      float: right;
+      width: 25%;
+      height: 25%;
+}
+
+.left {
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+}
